@@ -125,8 +125,23 @@ button[data-baseweb="tab"] p { color: #7a7a7a; }
 button[data-baseweb="tab"][aria-selected="true"] p { color: #66794A; font-weight: 600; }
 div[data-testid="stExpander"] details, div[data-testid="stExpander"] summary { background: #fff; border-radius: 16px; }
 div[data-testid="stExpander"] summary { padding: 12px 16px; }
-div[data-testid="stAlert"] { background: #FFFFFF; border: 1px solid #EFE3DE; border-radius: 14px; }
-div[data-testid="stAlert"] p { color: #2F3A22; }
+div[data-testid="stAlert"] { background: #FFFFFF; border: 1px solid #EFE3DE; border-radius: 14px; box-shadow: 0 2px 10px rgba(90,70,60,.06); overflow: hidden; }
+div[data-testid="stAlert"] > div, div[data-testid="stAlert"] [data-baseweb="notification"], div[data-testid="stAlertContainer"] { background: transparent !important; }
+div[data-testid="stAlert"] p, div[data-testid="stAlert"] span, div[data-testid="stAlert"] strong { color: #2F3A22 !important; }
+
+/* ---------- baris status (mis. validasi impor) ---------- */
+.status { display: flex; align-items: center; gap: 14px; background: #fff; border-radius: 16px; padding: 12px 16px;
+          margin-bottom: 10px; box-shadow: 0 2px 10px rgba(90,70,60,.06); border-left: 5px solid #66794A; }
+.status .ic { width: 30px; height: 30px; border-radius: 50%; background: #E4EBD6; color: #4D5E33; font-weight: 700;
+              display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: .95rem; }
+.status .tx { flex: 1; min-width: 0; font-size: .88rem; color: #2F3A22; }
+.status .tx b { font-weight: 700; color: #2F3A22; }
+.status .tx span { color: #5f6b4d; margin-left: 6px; }
+.status .tag { font-size: .68rem; font-weight: 600; padding: 3px 12px; border-radius: 999px; background: #E4EBD6; color: #4D5E33; white-space: nowrap; }
+.status.bad { border-left-color: #D9708A; }
+.status.bad .ic { background: #F9DCE4; color: #A8405A; }
+.status.bad .tx span { color: #A8405A; }
+.status.bad .tag { background: #F9DCE4; color: #A8405A; }
 input, textarea, div[data-baseweb="select"] > div, div[data-baseweb="input"] { background-color: #FFFFFF !important; color: #2F3A22 !important; }
 div[data-testid="stFileUploaderDropzone"] { background: #FBF4F1; border-radius: 14px; }
 div[data-testid="stFileUploaderDropzone"] *, div[data-testid="stFileUploader"] small { color: #2F3A22; }
@@ -1024,7 +1039,11 @@ def page_faq():
         ])
         st.write("")
         for nama, ok, pesan in cek:
-            (st.success if ok else st.error)(f"**{nama}.csv**: {pesan}")
+            st.markdown(
+                f'<div class="status {"" if ok else "bad"}"><div class="ic">{"✓" if ok else "!"}</div>'
+                f'<div class="tx"><b>{nama}.csv</b><span>{pesan}</span></div>'
+                f'<div class="tag">{"Siap" if ok else "Perlu dicek"}</div></div>',
+                unsafe_allow_html=True)
         st.download_button("⬇️ Unduh semua (ZIP: CSV + schema.sql)", ex.zip_bytes(tabel), "data_bersih_byficlo.zip", "application/zip", type="primary")
         st.caption("CSV: UTF-8, header snake_case, tanggal ISO, angka tanpa format. `schema.sql` berisi CREATE TABLE lengkap. "
                    "Data keuangan (modal/pengeluaran) tidak pernah diekspor.")
