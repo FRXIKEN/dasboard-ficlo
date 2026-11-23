@@ -147,6 +147,27 @@ div[data-testid="stFileUploaderDropzone"] { background: #FBF4F1; border-radius: 
 div[data-testid="stFileUploaderDropzone"] *, div[data-testid="stFileUploader"] small { color: #2F3A22; }
 div[data-baseweb="popover"] > div, ul[role="listbox"], div[data-baseweb="calendar"] { background: #FFFFFF !important; }
 div[data-baseweb="popover"] li, div[data-baseweb="popover"] *:not(svg):not(path) { color: #2F3A22; }
+/* ---------- kolom isian & filter: terang, lembut, teks terbaca ---------- */
+div[data-baseweb="input"], div[data-baseweb="base-input"], div[data-baseweb="select"] > div, div[data-baseweb="textarea"],
+div[data-testid="stDateInput"] div[data-baseweb="input"], div[data-testid="stNumberInputContainer"] {
+    background: #FFFFFF !important; border: 1.5px solid #E4EBD6 !important; border-radius: 12px !important; box-shadow: none !important; }
+div[data-baseweb="input"] *, div[data-baseweb="base-input"] *, div[data-baseweb="select"] > div > div, div[data-baseweb="textarea"] * {
+    background-color: transparent !important; color: #2F3A22 !important; }
+div[data-baseweb="select"] svg, div[data-baseweb="input"] svg, div[data-testid="stDateInput"] svg { fill: #66794A !important; color: #66794A !important; }
+div[data-baseweb="input"]:focus-within, div[data-baseweb="select"] > div:focus-within, div[data-baseweb="textarea"]:focus-within {
+    border-color: #66794A !important; box-shadow: 0 0 0 3px rgba(102,121,74,.15) !important; }
+input::placeholder, textarea::placeholder { color: #9AA58A !important; opacity: 1 !important; }
+div[data-baseweb="select"] input { background: transparent !important; }
+/* tag pilihan (multiselect) */
+span[data-baseweb="tag"] { background: #E4EBD6 !important; border-radius: 999px !important; }
+span[data-baseweb="tag"], span[data-baseweb="tag"] span, span[data-baseweb="tag"] svg { color: #4D5E33 !important; fill: #4D5E33 !important; background-color: transparent !important; }
+span[data-baseweb="tag"] { background-color: #E4EBD6 !important; }
+/* unggah file */
+div[data-testid="stFileUploaderDropzone"] { background: #F4F8EC !important; border: 1.5px dashed #B9C79A !important; border-radius: 16px !important; }
+div[data-testid="stFileUploaderDropzone"] *:not(button):not(button *) { color: #4D5E33 !important; background: transparent !important; }
+div[data-testid="stFileUploaderDropzone"] button { background: #FFFFFF !important; border: 1.5px solid #66794A !important; border-radius: 999px !important; }
+div[data-testid="stFileUploaderDropzone"] button, div[data-testid="stFileUploaderDropzone"] button * { color: #4D5E33 !important; }
+div[data-testid="stFileUploaderDropzone"] button:hover { background: #E4EBD6 !important; }
 .topbar .ttl { margin-bottom: 2px; }
 .topbar .sub { margin-top: 2px; }
 </style>
