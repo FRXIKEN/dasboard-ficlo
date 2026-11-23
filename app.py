@@ -168,6 +168,18 @@ div[data-testid="stFileUploaderDropzone"] *:not(button):not(button *) { color: #
 div[data-testid="stFileUploaderDropzone"] button { background: #FFFFFF !important; border: 1.5px solid #66794A !important; border-radius: 999px !important; }
 div[data-testid="stFileUploaderDropzone"] button, div[data-testid="stFileUploaderDropzone"] button * { color: #4D5E33 !important; }
 div[data-testid="stFileUploaderDropzone"] button:hover { background: #E4EBD6 !important; }
+/* ---------- buang merah bawaan Streamlit: tag, tab, centang, slider ---------- */
+.stApp [data-baseweb="tag"] { background: #E4EBD6 !important; background-color: #E4EBD6 !important; border: 1px solid #C9D6AE !important; border-radius: 999px !important; }
+.stApp [data-baseweb="tag"], .stApp [data-baseweb="tag"] * { color: #4D5E33 !important; fill: #4D5E33 !important; }
+.stApp [data-baseweb="tag"] span { background: transparent !important; }
+.stApp div[data-baseweb="tab-highlight"] { background-color: #66794A !important; height: 3px !important; border-radius: 3px; }
+.stApp div[data-baseweb="tab-border"] { background-color: #E4EBD6 !important; height: 2px !important; }
+.stApp button[data-baseweb="tab"]:hover p { color: #4D5E33 !important; }
+.stApp [data-baseweb="checkbox"] > div:first-child, .stApp [data-baseweb="radio"] > div:first-child { border-color: #66794A !important; }
+.stApp [data-baseweb="checkbox"] input:checked + div, .stApp [data-baseweb="radio"] input:checked + div { background-color: #66794A !important; border-color: #66794A !important; }
+.stApp [data-testid="stSlider"] [role="slider"] { background-color: #66794A !important; }
+.stApp [data-testid="stSlider"] [data-baseweb="slider"] > div > div > div { background: linear-gradient(to right, #66794A var(--v, 0%), #E4EBD6 var(--v, 0%)) !important; }
+.stApp a { color: #66794A; }
 .topbar .ttl { margin-bottom: 2px; }
 .topbar .sub { margin-top: 2px; }
 </style>
