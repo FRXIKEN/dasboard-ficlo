@@ -1,0 +1,46 @@
+id_item,jenis_item,nama_item,kategori,satuan,stok_awal,mutasi_masuk,mutasi_keluar,stok_saat_ini,stok_minimum,harga_satuan,status_stok,nilai_persediaan,saran_restock_qty,estimasi_biaya_restock
+PRD001,Produk,Bouquet Mawar Merah,Flower Bouquet,pcs,5,0,0,5,2,140000,Aman,700000,0,0
+PRD002,Produk,Bouquet Aster,Flower Bouquet,pcs,5,0,0,5,2,80000,Aman,400000,0,0
+PRD003,Produk,Bouquet Thumbelina,Flower Bouquet,pcs,5,0,0,5,2,100000,Aman,500000,0,0
+PRD004,Produk,Bouquet Mawar 10 Tangkai,Flower Bouquet,pcs,5,0,0,5,2,200000,Aman,1000000,0,0
+PRD005,Produk,Thumbelina XS,Artificial Flower,pcs,10,0,0,10,2,60000,Aman,600000,0,0
+PRD006,Produk,Thumbelina Small,Artificial Flower,pcs,10,0,0,10,2,120000,Aman,1200000,0,0
+PRD007,Produk,Thumbelina Medium,Artificial Flower,pcs,10,0,0,10,2,195000,Aman,1950000,0,0
+PRD008,Produk,Bouquet Snack Small,Snack Bouquet,pcs,5,0,0,5,2,30000,Aman,150000,0,0
+PRD009,Produk,Bouquet Snack Medium,Snack Bouquet,pcs,5,0,0,5,2,55000,Aman,275000,0,0
+PRD010,Produk,Bouquet Snack Large,Snack Bouquet,pcs,5,0,0,5,2,250000,Aman,1250000,0,0
+PRD011,Produk,Jasa Money Bucket 10 Lembar,Money Bouquet,pcs,10,0,0,10,2,60000,Aman,600000,0,0
+PRD012,Produk,Jasa Money Bucket 20 Lembar,Money Bouquet,pcs,10,0,0,10,2,70000,Aman,700000,0,0
+PRD013,Produk,Jasa Money Bucket 30 Lembar,Money Bouquet,pcs,10,0,0,10,2,90000,Aman,900000,0,0
+BHN001,Bahan,Kertas Cellophane Gold,Kemasan,lembar,100,50,0,150,20,2500,Aman,375000,0,0
+BHN002,Bahan,Kertas Cellophane Hitam,Kemasan,lembar,100,0,0,100,20,2500,Aman,250000,0,0
+BHN003,Bahan,Kertas Cellophane Hitam Transparan,Kemasan,lembar,100,0,0,100,20,2500,Aman,250000,0,0
+BHN004,Bahan,Kertas Cellophane Biru Muda,Kemasan,lembar,100,0,0,100,20,2500,Aman,250000,0,0
+BHN005,Bahan,Kertas Cellophane Biru Tua,Kemasan,lembar,100,0,0,100,20,2500,Aman,250000,0,0
+BHN006,Bahan,Kertas Cellophane Putih,Kemasan,lembar,100,0,0,100,20,2500,Aman,250000,0,0
+BHN007,Bahan,Kertas Cellophane Pink,Kemasan,lembar,100,0,0,100,20,2500,Aman,250000,0,0
+BHN008,Bahan,Kertas Cellophane Ungu,Kemasan,lembar,100,0,0,100,20,2500,Aman,250000,0,0
+BHN009,Bahan,Kertas Cellophane Merah,Kemasan,lembar,100,0,0,100,20,2500,Aman,250000,0,0
+BHN010,Bahan,Kertas Cellophane Hijau,Kemasan,lembar,100,0,0,100,20,2500,Aman,250000,0,0
+BHN011,Bahan,Kertas Cellophane Khaki,Kemasan,lembar,100,0,0,100,20,2500,Aman,250000,0,0
+BHN012,Bahan,Kertas Cellophane Abu,Kemasan,lembar,100,0,0,100,20,2500,Aman,250000,0,0
+BHN013,Bahan,Bunga Mawar Putih,Bunga Artificial,tangkai,500,0,0,500,50,6000,Aman,3000000,0,0
+BHN014,Bahan,Bunga Mawar Maroon,Bunga Artificial,tangkai,500,0,0,500,50,6000,Aman,3000000,0,0
+BHN015,Bahan,Bunga Mawar Biru,Bunga Artificial,tangkai,500,0,0,500,50,6000,Aman,3000000,0,0
+BHN016,Bahan,Bunga Mawar Ungu,Bunga Artificial,tangkai,500,0,0,500,50,6000,Aman,3000000,0,0
+BHN017,Bahan,Bunga Mawar Pink Muda,Bunga Artificial,tangkai,500,0,0,500,50,6000,Aman,3000000,0,0
+BHN018,Bahan,Bunga Mawar Pink Tua,Bunga Artificial,tangkai,500,0,0,500,50,6000,Aman,3000000,0,0
+BHN019,Bahan,Bunga Mawar Kuning,Bunga Artificial,tangkai,500,0,0,500,50,6000,Aman,3000000,0,0
+BHN020,Bahan,Bunga Mawar Hijau,Bunga Artificial,tangkai,500,0,0,500,50,6000,Aman,3000000,0,0
+BHN021,Bahan,Pita Maroon,Pita & Aksesoris,roll,10,0,0,10,2,8000,Aman,80000,0,0
+BHN022,Bahan,Pita Gold,Pita & Aksesoris,roll,10,0,0,10,2,8000,Aman,80000,0,0
+BHN023,Bahan,Pita Hitam,Pita & Aksesoris,roll,10,0,0,10,2,8000,Aman,80000,0,0
+BHN024,Bahan,Pita Biru,Pita & Aksesoris,roll,10,0,0,10,2,8000,Aman,80000,0,0
+BHN025,Bahan,Pita Pink,Pita & Aksesoris,roll,10,0,0,10,2,8000,Aman,80000,0,0
+BHN026,Bahan,Pita Abu,Pita & Aksesoris,roll,10,0,0,10,2,8000,Aman,80000,0,0
+BHN027,Bahan,Pita Cream,Pita & Aksesoris,roll,10,0,0,10,2,8000,Aman,80000,0,0
+BHN028,Bahan,Pita Ungu,Pita & Aksesoris,roll,10,0,0,10,2,8000,Aman,80000,0,0
+BHN029,Bahan,Gunting,Alat & Perlengkapan,pcs,4,0,0,4,1,45000,Aman,180000,0,0
+BHN030,Bahan,Lem Tembak,Alat & Perlengkapan,pack,3,0,0,3,1,100000,Aman,300000,0,0
+BHN031,Bahan,Stick Ucapan,Alat & Perlengkapan,pcs,100,0,0,100,20,3000,Aman,300000,0,0
+BHN032,Bahan,Tusuk Sate,Alat & Perlengkapan,pcs,300,0,0,300,100,1000,Aman,300000,0,0

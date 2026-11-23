@@ -1,0 +1,14 @@
+id_produk,nama_produk,kategori,deskripsi,harga_jual,hpp_standar,margin_standar,persen_margin,stok_awal,stok_minimum,mutasi_masuk,mutasi_keluar,stok_saat_ini,status_stok,satuan,status
+PRD001,Bouquet Mawar Merah,Flower Bouquet,Bouquet mawar merah fresh ukuran medium,200000,140000,60000,0.3,5,2,0,0,5,Aman,pcs,Aktif
+PRD002,Bouquet Aster,Flower Bouquet,Bouquet aster fresh flowers ukuran medium,110000,80000,30000,0.2727,5,2,0,0,5,Aman,pcs,Aktif
+PRD003,Bouquet Thumbelina,Flower Bouquet,Bouquet thumbelina fresh flowers,180000,100000,80000,0.4444,5,2,0,0,5,Aman,pcs,Aktif
+PRD004,Bouquet Mawar 10 Tangkai,Flower Bouquet,Bouquet mawar fresh flowers 10 tangkai,300000,200000,100000,0.3333,5,2,0,0,5,Aman,pcs,Aktif
+PRD005,Thumbelina XS,Artificial Flower,Thumbelina artificial pink,125000,60000,65000,0.52,10,2,0,0,10,Aman,pcs,Aktif
+PRD006,Thumbelina Small,Artificial Flower,Thumbelina pink,195000,120000,75000,0.3846,10,2,0,0,10,Aman,pcs,Aktif
+PRD007,Thumbelina Medium,Artificial Flower,Thumbelina pink,295000,195000,100000,0.339,10,2,0,0,10,Aman,pcs,Aktif
+PRD008,Bouquet Snack Small,Snack Bouquet,Snack ungu small,40000,30000,10000,0.25,5,2,0,0,5,Aman,pcs,Aktif
+PRD009,Bouquet Snack Medium,Snack Bouquet,Snack biru medium,85000,55000,30000,0.3529,5,2,0,0,5,Aman,pcs,Aktif
+PRD010,Bouquet Snack Large,Snack Bouquet,Snack large,350000,250000,100000,0.2857,5,2,0,0,5,Aman,pcs,Aktif
+PRD011,Jasa Money Bucket 10 Lembar,Money Bouquet,Jasa money bucket 10 lembar,120000,60000,60000,0.5,10,2,0,0,10,Aman,pcs,Aktif
+PRD012,Jasa Money Bucket 20 Lembar,Money Bouquet,Jasa money bucket 20 lembar,150000,70000,80000,0.5333,10,2,0,0,10,Aman,pcs,Aktif
+PRD013,Jasa Money Bucket 30 Lembar,Money Bouquet,Jasa money bucket 30 lembar,170000,90000,80000,0.4706,10,2,0,0,10,Aman,pcs,Aktif

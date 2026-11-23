@@ -1,0 +1,33 @@
+id_bahan,nama_bahan,kategori_bahan,tipe_bahan,masa_simpan_hari,satuan,stok_awal,stok_minimum,harga_beli_satuan,supplier,mutasi_masuk,mutasi_keluar,stok_saat_ini,nilai_persediaan,status_stok,keterangan
+BHN001,Kertas Cellophane Gold,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,50,0,150,375000,Aman,Contoh data bahan kemasan
+BHN002,Kertas Cellophane Hitam,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,0,0,100,250000,Aman,Contoh data bahan kemasan
+BHN003,Kertas Cellophane Hitam Transparan,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,0,0,100,250000,Aman,Contoh data bahan kemasan
+BHN004,Kertas Cellophane Biru Muda,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,0,0,100,250000,Aman,Contoh data bahan kemasan
+BHN005,Kertas Cellophane Biru Tua,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,0,0,100,250000,Aman,Contoh data bahan kemasan
+BHN006,Kertas Cellophane Putih,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,0,0,100,250000,Aman,Contoh data bahan kemasan
+BHN007,Kertas Cellophane Pink,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,0,0,100,250000,Aman,Contoh data bahan kemasan
+BHN008,Kertas Cellophane Ungu,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,0,0,100,250000,Aman,Contoh data bahan kemasan
+BHN009,Kertas Cellophane Merah,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,0,0,100,250000,Aman,Contoh data bahan kemasan
+BHN010,Kertas Cellophane Hijau,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,0,0,100,250000,Aman,Contoh data bahan kemasan
+BHN011,Kertas Cellophane Khaki,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,0,0,100,250000,Aman,Contoh data bahan kemasan
+BHN012,Kertas Cellophane Abu,Kemasan,Non-Perishable,365,lembar,100,20,2500,Jopaper,0,0,100,250000,Aman,Contoh data bahan kemasan
+BHN013,Bunga Mawar Putih,Bunga Artificial,Non-Perishable,365,tangkai,500,50,6000,Azka Flowers,0,0,500,3000000,Aman,contoh data bahan bunga artificial
+BHN014,Bunga Mawar Maroon,Bunga Artificial,Non-Perishable,365,tangkai,500,50,6000,Azka Flowers,0,0,500,3000000,Aman,contoh data bahan bunga artificial
+BHN015,Bunga Mawar Biru,Bunga Artificial,Non-Perishable,365,tangkai,500,50,6000,Azka Flowers,0,0,500,3000000,Aman,contoh data bahan bunga artificial
+BHN016,Bunga Mawar Ungu,Bunga Artificial,Non-Perishable,365,tangkai,500,50,6000,Azka Flowers,0,0,500,3000000,Aman,contoh data bahan bunga artificial
+BHN017,Bunga Mawar Pink Muda,Bunga Artificial,Non-Perishable,365,tangkai,500,50,6000,Azka Flowers,0,0,500,3000000,Aman,contoh data bahan bunga artificial
+BHN018,Bunga Mawar Pink Tua,Bunga Artificial,Non-Perishable,365,tangkai,500,50,6000,Azka Flowers,0,0,500,3000000,Aman,contoh data bahan bunga artificial
+BHN019,Bunga Mawar Kuning,Bunga Artificial,Non-Perishable,365,tangkai,500,50,6000,Azka Flowers,0,0,500,3000000,Aman,contoh data bahan bunga artificial
+BHN020,Bunga Mawar Hijau,Bunga Artificial,Non-Perishable,365,tangkai,500,50,6000,Azka Flowers,0,0,500,3000000,Aman,contoh data bahan bunga artificial
+BHN021,Pita Maroon,Pita & Aksesoris,Non-Perishable,365,roll,10,2,8000,Toko Pita Satin,0,0,10,80000,Aman,contoh data bahan pita
+BHN022,Pita Gold,Pita & Aksesoris,Non-Perishable,365,roll,10,2,8000,Toko Pita Satin,0,0,10,80000,Aman,contoh data bahan pita
+BHN023,Pita Hitam,Pita & Aksesoris,Non-Perishable,365,roll,10,2,8000,Toko Pita Satin,0,0,10,80000,Aman,contoh data bahan pita
+BHN024,Pita Biru,Pita & Aksesoris,Non-Perishable,365,roll,10,2,8000,Toko Pita Satin,0,0,10,80000,Aman,contoh data bahan pita
+BHN025,Pita Pink,Pita & Aksesoris,Non-Perishable,365,roll,10,2,8000,Toko Pita Satin,0,0,10,80000,Aman,contoh data bahan pita
+BHN026,Pita Abu,Pita & Aksesoris,Non-Perishable,365,roll,10,2,8000,Toko Pita Satin,0,0,10,80000,Aman,contoh data bahan pita
+BHN027,Pita Cream,Pita & Aksesoris,Non-Perishable,365,roll,10,2,8000,Toko Pita Satin,0,0,10,80000,Aman,contoh data bahan pita
+BHN028,Pita Ungu,Pita & Aksesoris,Non-Perishable,365,roll,10,2,8000,Toko Pita Satin,0,0,10,80000,Aman,contoh data bahan pita
+BHN029,Gunting,Alat & Perlengkapan,Non-Perishable,365,pcs,4,1,45000,Toko Sederhana,0,0,4,180000,Aman,contoh data alat perlengkapan
+BHN030,Lem Tembak,Alat & Perlengkapan,Non-Perishable,365,pack,3,1,100000,Toko Sederhana,0,0,3,300000,Aman,contoh data alat perlengkapan
+BHN031,Stick Ucapan,Alat & Perlengkapan,Non-Perishable,365,pcs,100,20,3000,Toko Sederhana,0,0,100,300000,Aman,contoh data alat perlengkapan
+BHN032,Tusuk Sate,Alat & Perlengkapan,Non-Perishable,365,pcs,300,100,1000,Toko Sederhana,0,0,300,300000,Aman,contoh data alat perlengkapan
